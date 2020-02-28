@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Envision</string>
+    <string name="facebook_app_id">406914196681702</string>
+    <string name="fb_login_protocol_scheme">fb406914196681702</string>
+    <string name="detect_text">detect text</string>
+    <string name="detect_qr_code">detect QR Code</string>
+    <string name="round_button">Round Button</string>
+    <string name="text_recognization">Text Recognization</string>
+
+
+    <string name="action_camera">Camera</string>
+    <string name="action_gallery">Gallery</string>
+    <string name="facebook_login">FaceBook Login</string>
+    <string name="google_login">Google Login</string>
+    <string name="tap_on_the_image_below_to_change_your_profile_picture">Tap on the image below to change your profile picture</string>
+    <string name="click_here_to_get_pick_image_from_gallery_in_android_programmatically">Click here to Get/Pick image from gallery in android programmatically</string>
+    <string name="todo">TODO</string>
+    <string name="view_photo">View Photo</string>
+    <string name="translate">Translate</string>
+    <string name="share">Share</string>
+    <string name="sppech">Speech</string>
+    <string name="code">Code</string>
+
+
+</resources>

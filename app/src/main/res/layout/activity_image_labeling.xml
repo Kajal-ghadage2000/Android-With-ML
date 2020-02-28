@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageLabeling">
+
+    <com.wonderkiln.camerakit.CameraView
+        android:id="@+id/cameraview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp">
+
+
+    </com.wonderkiln.camerakit.CameraView>
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:layout_width="match_parent"
+        android:layout_alignBottom="@id/cameraview"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="672dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_weight="1"
+        android:foregroundGravity="bottom"
+        app:mrl_rippleAlpha="0.1"
+        app:mrl_rippleBackground="@color/colorwhite"
+        app:mrl_rippleColor="@color/colorwhite"
+        app:mrl_rippleDelayClick="true"
+        app:mrl_rippleDimension="10dp"
+        app:mrl_rippleDuration="350"
+        app:mrl_rippleFadeDuration="75"
+        app:mrl_rippleHover="true"
+        app:mrl_rippleInAdapter="false"
+        app:mrl_rippleOverlay="true"
+        app:mrl_ripplePersistent="true"
+        app:mrl_rippleRoundedCorners="10dp"
+        android:background="@android:color/transparent">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:background="@drawable/shape"
+            android:fontFamily="serif-monospace"
+            android:text="Image Labeling"
+            android:textColor="@color/colorwhite"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+
+</RelativeLayout>

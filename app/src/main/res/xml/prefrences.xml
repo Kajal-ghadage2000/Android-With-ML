@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="List of colors">
+
+        <ListPreference
+            android:key="list_preference"
+            android:title="choose color of app"
+            android:entries="@array/animalsdetails"
+            android:entryValues="@array/animalsvalues"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="User Name">
+
+        <EditTextPreference
+            android:key="edittext_preference"
+            android:title="Name"
+            android:dialogTitle="Enter Your name" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

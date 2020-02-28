@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frame"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".TextRecog">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <com.wonderkiln.camerakit.CameraView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/camView"
+        />
+
+    <com.example.envision.GraphicUtils.GraphicOverlay
+        android:id="@+id/graphic_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:layout_width="match_parent"
+        android:layout_height="201dp"
+        android:layout_alignBottom="@id/cameraview"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="661dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@android:color/transparent"
+        android:foregroundGravity="bottom"
+        app:mrl_rippleAlpha="0.1"
+        app:mrl_rippleBackground="@color/colorwhite"
+        app:mrl_rippleColor="@color/colorwhite"
+        app:mrl_rippleDelayClick="true"
+        app:mrl_rippleDimension="10dp"
+        app:mrl_rippleDuration="350"
+        app:mrl_rippleFadeDuration="75"
+        app:mrl_rippleHover="true"
+        app:mrl_rippleInAdapter="false"
+        app:mrl_rippleOverlay="true"
+        app:mrl_ripplePersistent="true"
+        app:mrl_rippleRoundedCorners="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="77dp">
+
+            <Button
+                android:id="@+id/cameraBtn"
+                android:layout_width="205dp"
+                android:layout_height="77dp"
+                android:background="@drawable/shape"
+                android:fontFamily="serif-monospace"
+                android:text="@string/detect_text"
+                android:textColor="@color/colorwhite"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/imageedit"
+                android:layout_width="211dp"
+                android:onClick="callImageEdit"
+                android:layout_height="77dp"
+                android:background="@drawable/shape"
+                android:fontFamily="serif-monospace"
+                android:text="Image Edit"
+                android:textColor="@color/colorwhite"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imgCamera"
+        />
+
+</FrameLayout>
+</RelativeLayout>

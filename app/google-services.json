@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "915623803876",
+    "firebase_url": "https://envision-5ae37.firebaseio.com",
+    "project_id": "envision-5ae37",
+    "storage_bucket": "envision-5ae37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915623803876:android:2c7915737a40351f0c25f1",
+        "android_client_info": {
+          "package_name": "com.example.envision"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915623803876-qimr3ufnj6gtrmltl776rhlvvhriqinu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.envision",
+            "certificate_hash": "46803db8e82ecf43c8c2ec81debe872e29b86ccd"
+          }
+        },
+        {
+          "client_id": "915623803876-d9315r7nk8tdgdnepqge4qi8kqciaslr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC99Gyd7jaJYiB-8QzyaWHWjee_ZIykXo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915623803876-d9315r7nk8tdgdnepqge4qi8kqciaslr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
